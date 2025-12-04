@@ -161,14 +161,6 @@ header {
   box-shadow: 0 10px 25px rgba(255, 105, 180, 0.2);
 }
 
-.tarjetaProducto:nth-child(even) {
-  direction: rtl;
-}
-
-.tarjetaProducto:nth-child(even) > * {
-  direction: ltr;
-}
-
 .tarjetaProducto h3 {
   font-size: 2.2rem;
   color: var(--rosa-fuerte);
@@ -214,7 +206,9 @@ header {
   font-size: 1.1rem;
 }
 
-.infoContacto p { margin-bottom: 1rem; }
+.infoContacto p { 
+  margin-bottom: 1rem; 
+}
 
 .formularioContacto {
   display: flex;
@@ -315,12 +309,8 @@ footer {
   .tarjetaProducto {
     grid-template-columns: 1fr;
     padding: 3rem 2rem;
-    aspect-ratio: 1 / 1;
     text-align: center;
   }
-
-  .tarjetaProducto:nth-child(even) { direction: ltr; }
-  .tarjetaProducto img { height: 55%; margin-bottom: 1.5rem; }
 }
 
 @media (max-width: 480px) {
