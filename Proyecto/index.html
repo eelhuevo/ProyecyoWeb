@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repostería Minimalista</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="contenedor">
+            <div class="contenidoHeader">
+                <h1 class="logo">DulceArte</h1>
+
+                <!-- MENÚ -->
+                <nav class="navMenu" id="navMenu">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#productos">Productos</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+
+                <button class="btnMenuMovil" id="btnMenu">
+                    <span class="iconoMenu">☰</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="seccionHero">
+        <div class="contenedor">
+            <article class="contenidoHero">
+                <h2>Delicias que endulzan tu vida</h2>
+                <p>Descubre nuestra repostería artesanal, hecha con amor y los mejores ingredientes. Pasteles,
+                    cupcakes, galletas y más, todos con un diseño minimalista y elegante.</p>
+                <button class="btnPrimario">Ver Productos</button>
+            </article>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE PRODUCTOS -->
+    <section id="productos" class="seccionProductos">
+        <div class="contenedor">
+            <header class="encabezadoSeccion">
+                <h2>Nuestros Productos</h2>
+                <p>Explora nuestra variedad de postres y dulces artesanales, preparados para cada ocasión.</p>
+            </header>
+
+            <div class="gridProductos">
+                <article class="tarjetaProducto">
+                    <h3>Pastel de Chocolate</h3>
+                    <p>Delicioso pastel de chocolate con cobertura cremosa y decoraciones elegantes.</p>
+                </article>
+
+                <article class="tarjetaProducto">
+                    <h3>Cupcakes de Vainilla</h3>
+                    <p>Mini pastelitos con glaseado de vainilla y toppings coloridos.</p>
+                </article>
+
+                <article class="tarjetaProducto">
+                    <h3>Galletas Decoradas</h3>
+                    <p>Galletas artesanales con diseños personalizados para fiestas y eventos.</p>
+                </article>
+
+                <article class="tarjetaProducto">
+                    <h3>Tarta de Frutas</h3>
+                    <p>Tarta fresca con crema pastelera y frutas de temporada.</p>
+                </article>
+
+                <article class="tarjetaProducto">
+                    <h3>Macarons</h3>
+                    <p>Pequeños y elegantes macarons de diferentes sabores y colores.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN NOSOTROS -->
+    <section id="nosotros" class="seccionNosotros">
+        <div class="contenedor">
+            <header>
+                <h2>Sobre Nosotros</h2>
+                <p>En DulceArte nos apasiona crear postres únicos que alegren cada momento. Combinamos
+                    creatividad, calidad y dedicación en cada preparación.</p>
+            </header>
+
+            <div class="contenidoNosotros">
+                <article>
+                    <h3>Nuestra Misión</h3>
+                    <p>Ofrecer repostería artesanal de alta calidad, con sabor y presentación excepcionales.</p>
+                </article>
+
+                <article>
+                    <h3>Nuestra Visión</h3>
+                    <p>Ser reconocidos por nuestra creatividad y excelencia en el mundo de la repostería
+                        artesanal.</p>
+                </article>
+
+                <article>
+                    <h3>Valores</h3>
+                    <ul>
+                        <li>Calidad</li>
+                        <li>Creatividad</li>
+                        <li>Pasión</li>
+                        <li>Responsabilidad</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="seccionContacto">
+        <div class="contenedor">
+            <header class="encabezadoSeccion">
+                <h2>Contacto</h2>
+                <p>¿Tienes un proyecto o un pedido especial? Escríbenos y nos pondremos en contacto contigo.</p>
+            </header>
+
+            <div class="contenidoContacto">
+                <aside class="infoContacto">
+                    <address>
+                        <p>✉️ Email: contacto@reposteria.com</p>
+                        <p>📞 Teléfono: +1 (555) 123-4567</p>
+                        <p>📍 Ubicación: Ciudad, País</p>
+                    </address>
+                </aside>
+
+                <form class="formularioContacto">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre" required>
+
+                    <label for="correo">Email</label>
+                    <input type="email" id="correo" placeholder="tu@email.com" required>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="4" placeholder="Tu mensaje..." required></textarea>
+
+                    <button type="submit" class="btnPrimario btnCompleto">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="contenedor">
+            <div class="gridFooter">
+                <section class="columnaFooter">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#">Equipo</a></li>
+                        <li><a href="#">Carreras</a></li>
+                    </ul>
+                </section>
+
+                <section class="columnaFooter">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#productos">Pedidos Especiales</a></li>
+                        <li><a href="#contacto">Consultoría</a></li>
+                    </ul>
+                </section>
+
+                <section class="columnaFooter">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Recetas</a></li>
+                        <li><a href="#">Ayuda</a></li>
+                    </ul>
+                </section>
+
+                <section class="columnaFooter">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="pieFooter">
+                <p>© 2025 DulceArte - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
